@@ -114,7 +114,7 @@ function check3and7(positiveNum) {
     };
 };
 
-console.log(check3and7(28))
+console.log(check3and7(28));
 
 console.log('--------------------------------------------------------');
 
@@ -129,9 +129,9 @@ let stringaReverse = 'Godzilla mangia le centrali nucleari';
 
 function reverseString(stringaReverse) {
     return stringaReverse.split('').reverse().join('');
-}
+};
 
-console.log(reverseString(stringaReverse))
+console.log(reverseString(stringaReverse));
 
 console.log('--------------------------------------------------------');
 
@@ -142,6 +142,20 @@ console.log('--------------------------------------------------------');
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log('ESERCIZIO 8');
+
+let maiuscStringa = 'nel cammin di nostra vita';
+
+function upperFirst(maiuscStringa) {
+
+    let parole = maiuscStringa.split(' ');
+
+    for (let i = 0; i < parole.length; i++) {
+        parole[i] = parole[i].charAt(0).toUpperCase() + parole[i].slice(1);
+    }
+    return parole.join(' ');  
+};
+
+console.log(upperFirst(maiuscStringa));
 
 console.log('--------------------------------------------------------');
 
