@@ -125,6 +125,14 @@ console.log('--------------------------------------------------------');
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log('ESERCIZIO 7');
 
+let stringaReverse = 'Godzilla mangia le centrali nucleari';
+
+function reverseString(stringaReverse) {
+    return stringaReverse.split('').reverse().join('');
+}
+
+console.log(reverseString(stringaReverse))
+
 console.log('--------------------------------------------------------');
 
 /* ESERCIZIO 8
