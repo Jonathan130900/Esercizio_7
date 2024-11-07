@@ -9,7 +9,7 @@ function area(l1, l2) {
     return l1 * l2;
 };
 
-console.log(area(8,4))
+console.log(area(8,4));
 
 console.log('--------------------------------------------------------');
 
@@ -51,7 +51,7 @@ function crazyDiff(a) {
     }
 };
 
-console.log(crazyDiff(20))
+console.log(crazyDiff(20));
 
 console.log('--------------------------------------------------------');
 
@@ -68,10 +68,10 @@ function boundary(numberBoundary) {
         return true;
     } else {
         return false;
-    }
-}
+    };
+};
 
-console.log(boundary(78))
+console.log(boundary(78));
 
 console.log('--------------------------------------------------------');
 
@@ -91,10 +91,10 @@ function epify(string) {
         return string;
     } else {
         return "EPICODE" + string;
-    }
-}
+    };
+};
 
-console.log(epify(string))
+console.log(epify(string));
 
 console.log('--------------------------------------------------------');
 
@@ -105,6 +105,16 @@ console.log('--------------------------------------------------------');
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log('ESERCIZIO 6');
+
+function check3and7(positiveNum) {
+    if (positiveNum % 3 || positiveNum % 7) {
+        return true;
+    } else {
+        return false;
+    };
+};
+
+console.log(check3and7(28))
 
 console.log('--------------------------------------------------------');
 
