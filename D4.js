@@ -167,6 +167,14 @@ console.log('--------------------------------------------------------');
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log('ESERCIZIO 9');
 
+let stringaTagliata = 'Torino e dintorni';
+
+function cutString(stringaTagliata) {
+    return stringaTagliata.slice(1, stringaTagliata.length -1);
+};
+
+console.log(cutString(stringaTagliata))
+
 console.log('--------------------------------------------------------');
 
 /* ESERCIZIO 10
