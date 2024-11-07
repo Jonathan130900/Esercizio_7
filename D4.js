@@ -63,6 +63,16 @@ console.log('--------------------------------------------------------');
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log('ESERCIZIO 4');
 
+function boundary(numberBoundary) {
+    if (numberBoundary >= 20 && numberBoundary <= 100 || numberBoundary === 400) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+console.log(boundary(78))
+
 console.log('--------------------------------------------------------');
 
 /* ESERCIZIO 5
