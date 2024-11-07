@@ -84,6 +84,18 @@ console.log('--------------------------------------------------------');
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log('ESERCIZIO 5');
 
+let string = 'EPICODE offre un sacco di corsi!';
+
+function epify(string) {
+    if (string.startsWith("EPICODE")) {
+        return string;
+    } else {
+        return "EPICODE" + string;
+    }
+}
+
+console.log(epify(string))
+
 console.log('--------------------------------------------------------');
 
 /* ESERCIZIO 6
