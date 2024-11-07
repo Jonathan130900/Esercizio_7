@@ -5,12 +5,11 @@
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log('ESERCIZIO 1');
 
-area(8, 2)
 function area(l1, l2) {
-    let myArea = l1 * l2;
-    console.log(myArea)
+    return l1 * l2;
 };
 
+console.log(area(8,4))
 
 console.log('--------------------------------------------------------');
 
@@ -43,6 +42,16 @@ console.log('--------------------------------------------------------');
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log('ESERCIZIO 3');
+
+function crazyDiff(a) {
+    if (a < 19) {
+        return Math.abs(a - 19)
+    } else if (a > 19){
+        return Math.abs((a - 19) * 3)
+    }
+};
+
+console.log(crazyDiff(20))
 
 console.log('--------------------------------------------------------');
 
